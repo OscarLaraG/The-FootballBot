@@ -28,7 +28,6 @@ GitHub: https://github.com/OscarLaraG
 
 
 
-GitHub-URL: https://github.com/OscarLaraG/Data-Science-Project
 
 
 
