@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Background.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: rgb(88, 88, 218);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 65px;
+    margin-top: 80px;
+
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#About{
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Pep.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#About h1{
+    font-size: 45px;
+}
+#About p, #About ol{
+    font-size: 15px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.about-section{
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+#Commands{
+    width:auto;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(Zidane.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+    
+.commands-section{
+    transform: translateY(00%);
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    color:white
+}
+
+.Current_scorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 4);
+    margin: 0 auto;
+    border: 5.0px solid rgb(88, 88, 218);
+    border-radius: 10px;
+    font-weight: 200; 
+}
+.Current_scorer > .command_1 {
+    background-color: #F8F8FF;
+    color:rgb(88, 88, 218);
+    padding: 5px 0;
+    border-radius: 3px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align:center;
+}
+.Current_scorer ul {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+    
