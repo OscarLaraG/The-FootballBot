@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FootballBot The Discord Bot</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <div class ="banner">
+        <div class = "navbar">
+            <ul>
+                <li> <a href = "#Home">Home</a></li>
+                <li> <a href = "#About">About</a></li>
+                <li> <a href = "#Commands">Commands</a></li>
+            </ul>
+        </div>
+        <div class ="content">
+            <h1>Football bot</h1>
+            <p>A bot for Football Fanatics</p>
+        </div>
+    </div>
+
+    <section id ="About" class="about-section">
+        <h1> About this Bot: </h1>
+        <p>This Discord Bot allows users to check stats for certain leagues (currently only Premier League), and small talk, such as:</p>
+        <ol>
+            <li> - Highest Goal scorers</li>
+            <li> - Top Assisters <em>(To be added)</em></li>
+            <li> - Best Goalkeeper <em>(To be added)</em></li>
+        </ol>
+        <h2> Coming up! </h2>
+        <p>Will add the following features to the bot: </p>
+        <ol>
+            <li> 1) Top Goalkeeper Command, will return the best goalkeeper based off saves/clean sheets</li>
+            <li> 2) Ability to talk with the user using basic small talk</li>
+            <li> 3) Ability to see the highest scorer of ALL TIME for the Premier League</li>
+        </ol>
+    </section>
+
+    <section id="Commands" class = "commands-section">
+        <h1> Commands Info</h1><br>
+        <h2>How the commands work:</h2> <br>
+        <ul>
+            <li> - <em>EVERY</em> command will be pre-fixed by a "?", omitting this will not trigger the command.</li><br>
+            <li> - Commands are case-sensitive. ?TopScorer and ?topscorer will be recognized as 2 <b>DIFFERENT</b> commands</li><br>
+            <li> - Commands will have an informative name, the user will be able to tell what the command returns</li><br>
+            <li> - Commands must be spelled correctly (see below for exact spelling).</li><br>
+        </ul>
+
+        <h3>Current Commands</h3><br>
+        <div class="Current_scorer" id = "C_scorer">
+            <div class = "command_1">Current Top Scorer</div><br>
+            <h3> Command: ?TopScorer</h3><br>
+            <ul>
+                <li> Returns the highest scoring player of the premier league </li><br>
+                <li> This currently returns Erling Haaland.</li><br>
+            </ul>
+        </div>
+
+    </section>
+  </body>
+</html>
