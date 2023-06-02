@@ -16,8 +16,10 @@ https://www.premierleague.com/stats/top/players/goals?se=489
 
 2) Added ?TopScorer command: This commannd currently (at the time of writing) returns Erling Haaland, as he is the current top scorer of the English Premier League
 
+3) Added ?TopAssister command: At the time, will return Kevin De Bruyne. 16 assists.
+
 **To-Do**
-- Add command for Top Assister and Dribbler
+- Add commands for other stats.
 - Create a small chat script to have user and bot interact with small talk.
 
 
