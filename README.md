@@ -4,6 +4,8 @@ A discordBot for Football Fanatics
 **Project Title:** The FootballBot (BETA)
 This Project will be based around Web-Scraping LIVE data from official Football league sites such as: The Premier League, La Liga etc. The bot will be able to return highest scorers, top assisters, top dribblers, etc.
 
+**Keep in mind: Some files are not available to the public. This is to protect my token, and functionality.**
+
 **Techniques:**
 To get specific data, the project will be using BeautifulSoup, JSON packages, Postman to download cURL's, Selenium, and python.
 
