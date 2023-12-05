@@ -1,6 +1,7 @@
 import requests
 
 
+
 # We will be using data from the LIVE OFFICIAL premier league site
 # get the cURL for our specific section, run it through Postman or Insomnia.
 
@@ -26,9 +27,17 @@ headers = {
 }
 response = requests.request("GET", url, headers=headers, data=payload)
 
-  #print(response.text)
+#print(response.text)
 
 data = response.json() #View this in a JSON Formatter to see all the data cleanly
 
-first_player_data = data["stats"]["content"][0]["owner"]["name"]["display"] #Stores the top scorer, following the JSON format
+
+#Stores the top scorer, following the JSON format
+first_player_data = data["stats"]["content"][0]["owner"]["name"]["display"]
+
+#Stores the amount of Goals he has scored.
+amount_of_goals = data["stats"]["content"][0]["value"]
+
+#Stores the team for the highest scorer 
+top_scorers_team = data["stats"]["content"][0]["owner"]["currentTeam"]["name"]
 
